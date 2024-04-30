@@ -1,4 +1,4 @@
-const reviewModel = require("../models/reviewModel")
+const reviewModel = require("../models/reviewModel.js")
 const bookModel = require("../models/bookModel")
 const validation=require('../validators/valid')
 const addReview = async function (req, res) {
